@@ -1,0 +1,44 @@
+h1
+{
+	text-align: center;
+	background-color: blue;
+	font-size: xx-large;
+}
+h2
+{
+	background-color: #1560BD;
+	font-size: xx-large;
+	font-family: "Viner Hand ITC Normal";
+}
+div{
+    width: 30%;
+    height: 60px;
+    margin: 10px auto;
+    border: 2px solid black;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 15px;
+	font-size: x-large;
+}
+
+.d1, .d2, .d3, .d4, .d5, .d6, .d7, .d8, .d9, .d10{
+    background-color: #87CEEB;
+    transition-property: width, background-color;
+    transition-duration: 0.5s;
+}
+
+.d1, .d2, .d3, .d4, .d5, .d6, .d7, .d8, .d9, .d10{
+    transition-timing-function: ease-in;
+}
+
+.d1:hover, .d2:hover, .d3:hover, .d4:hover, .d5:hover, .d6:hover, .d7:hover, .d8:hover, .d9:hover, .d10:hover{
+    width: 100%;
+}
+.d1, .d2, .d3, .d4, .d5, .d6, .d7, .d8, .d9, .d10{
+  transition-delay: 0s;
+}
+.d1:hover,.d2:hover, .d3:hover, .d4:hover, .d5:hover, .d6:hover, .d7:hover, .d8:hover, .d9:hover, .d10:hover{
+    background-color: #318CE7;
+}
+
+
